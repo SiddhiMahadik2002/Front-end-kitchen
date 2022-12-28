@@ -1,76 +1,103 @@
-.searchbarbox{
+.searchbarbox {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding:20px;
+    padding: 20px;
     margin-top: 30px;
-
+    width: 140%;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    top: 100px;
 }
-.searchbarbox>p{
+
+.searchbarbox>p {
     font-weight: 500;
     font-size: 18px;
 }
 
-.inputbox{
-    display:flex;
+.inputbox {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.searchinputicon{
+
+.searchinputicon {
     position: relative;
     width: 100%;
     margin: 10px 0px;
 
-    
+
 }
-.searchinputicon>ion-icon{
+
+.searchinputicon>ion-icon {
     position: absolute;
-    top: 8px;;
-    left:10px;
+    top: 8px;
+    ;
+    left: 10px;
     font-size: 25px;
 }
-.searchinputicon>input{
-    
-    padding:10px 10px 10px 40px;
+
+.searchinputicon>input {
+
+    padding: 10px 10px 10px 40px;
     background-color: rgba(213, 206, 206, 0.37);
-    width:98%;
+    width: 98%;
     border-radius: 10px;
     outline: none;
 }
-.searchbtn{
-    background-color:#e78900 ;
-    padding:10px 20px;
+
+.searchbtn {
+    background-color: #e78900;
+    padding: 10px 20px;
     color: white;
     border-radius: 10px;
 }
-.popularsearches{
-    color:#757575;
+
+.popularsearches {
+    color: #757575;
     font-weight: 500;
 }
-.specialitems{
-    color:#e78900;
+
+.specialitems {
+    color: #e78900;
     display: flex;
     align-items: center;
     margin-top: 5px;
 
 }
-.specialitems>p{
+
+.specialitems>p {
     margin: 0px 10px;
     cursor: pointer;
 }
-.specialitems>p:first-child{
+
+.specialitems>p:first-child {
     margin-left: 0px;
 }
 
-.rightheroarea{
+.rightheroarea {
     background-image: url("../../img/Biryani.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height:900px;
-    width:50%;
-    
+    height: 650px;
+    width: 60%;
+
 }
-.heroarea{
+
+.heroarea {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    /* background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    background: rgb(234, 238, 242);
+    background: radial-gradient(circle, rgba(234, 238, 242, 1) 0%, rgba(233, 227, 220, 1) 100%);
+    padding-top: 100px;
+}
 
+.leftheroarea {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 15;
 }

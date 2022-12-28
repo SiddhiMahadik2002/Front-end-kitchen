@@ -2,8 +2,8 @@ import React from "react";
 import "./heroarea.css"
 export const HeroArea = () => {
     return (
-        <div className="m-10 heroarea">
-            <div>
+        <div className="p-10 heroarea">
+            <div className="leftheroarea">
                 <h2 className="text-5xl font-bold mb-4">Siddhi's Kitchen</h2>
                 <p className="text-xl text-lightblack">Helping you to cook varieties of dishes from all over the world.</p>
                 <div className="searchbarbox  ">
