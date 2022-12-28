@@ -7,3 +7,9 @@ header{
     
 
 }
+.searchicon>ion-icon{
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}

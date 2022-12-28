@@ -1,12 +1,13 @@
 .searchbarbox {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 140%;
     position: relative;
     z-index: 10;
     background-color: #fff;
-    top: 100px;
+    top: 50px;
+    border-radius: 10px;
 }
 
 .searchbarbox>p {
@@ -50,8 +51,12 @@
     padding: 10px 20px;
     color: white;
     border-radius: 10px;
+    font-weight: 500;
 }
-
+.heroheading{
+  font-family: 'Great Vibes', handwriting;
+font-size: 80px;
+}
 .popularsearches {
     color: #757575;
     font-weight: 500;
