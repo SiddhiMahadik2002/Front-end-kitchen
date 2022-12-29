@@ -15,28 +15,28 @@
     cursor:pointer;
 }
 .singlecountrycard1{
-    background-image: url("../../img/Indian.jpg");
+    background-image: url("../../img/ind.jpg");
    }
 .singlecountrycard2{
-    background-image: url("../../img/Italian.jpg");
+    background-image: url("../../img/ita.jpg");
    }
 .singlecountrycard3{
-    background-image: url("../../img/French.jpg");
+    background-image: url("../../img/french.jpg");
    }
 .singlecountrycard4{
-    background-image: url("../../img/Chinese.jpg");
+    background-image: url("../../img/china.jpg");
    }
 .singlecountrycard5{
-    background-image: url("../../img/Japanese.jpg");
+    background-image: url("../../img/jap.jpg");
    }
 .singlecountrycard6{
-    background-image: url("../../img/Thai.jpg");
+    background-image: url("../../img/thai.jpg");
    }
 .singlecountrycard7{
-    background-image: url("../../img/Australian.jpg");
+    background-image: url("../../img/aust.jpg");
    }
 .singlecountrycard8{
-    background-image: url("../../img/Turkish.jpg");
+    background-image: url("../../img/tuk.jpg");
    }
    
 .countryoverlay{
