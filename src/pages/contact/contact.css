@@ -1,0 +1,26 @@
+.contactpage{
+    max-width: 80%;
+    width:100%;
+    margin:200px auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.leftcontact{
+    width:50%;
+
+}
+.rightcontact{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.rightcontact>input,.rightcontact>textarea ,.rightcontact>button{
+    width: 100%;
+    padding: 15px;
+    margin:10px 0px;
+    border-radius: 5px;
+    resize: none;
+}
+

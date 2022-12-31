@@ -1,4 +1,5 @@
 import React from "react";
+import "./contact.css"
 export const Contact=()=>{
     return(
         <div className="contactpage">
@@ -21,7 +22,7 @@ export const Contact=()=>{
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
                 <input type="email" placeholder="Phone number" />
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
                 <button>Send Message</button>
             </div>
         </div>
