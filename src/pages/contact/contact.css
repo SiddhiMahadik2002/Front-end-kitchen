@@ -24,3 +24,39 @@
     resize: none;
 }
 
+.email,.instagram{
+    display: flex;
+    align-items: center;
+
+}
+.leftcontact>p{
+    font-size: 15px;
+}
+.leftcontact>h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.socialmedia{
+    margin-top: 15px;
+
+}
+.email>ion-icon,.instagram>ion-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+.rightcontact>input,.rightcontact>textarea{
+    border: 2px solid  #e78900;
+    font-size: 17px;
+    font-family: 'poppins' !important;
+    outline: none;
+}
+.rightcontact>button{
+    background-color: #e78900;
+    color: white;
+    font-weight: 500;
+    font-family: poppins !important;
+
+}

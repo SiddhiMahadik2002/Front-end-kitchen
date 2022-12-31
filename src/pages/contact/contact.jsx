@@ -7,7 +7,7 @@ export const Contact=()=>{
                 <p>Contact Me</p>
                 <h1>How can I help you?</h1>
                 <p>Fill in the form or drop an email</p>
-                <div>
+                <div className="socialmedia">
                     <div className="email">
                     <ion-icon name="mail-outline"></ion-icon>
                     <p><a href="mailto:siddhimahadik257@gmail.com">siddhimahadik257@gmail.com</a></p>
