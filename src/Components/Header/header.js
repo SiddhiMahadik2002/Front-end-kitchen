@@ -10,7 +10,7 @@ export const Header=()=>{
                 <h2 className="text-2xl font-medium text-primary">Siddhi's Kitchen</h2>
             </div>
             <div className="flex items-center">
-                <p className="mx-2.5 text-lg font-semibold"> <Link to="/all-recipes">All Recipes</Link></p>
+                <p className="mx-2.5 text-lg font-semibold"> <Link to="/allrecipes">All Recipes</Link></p>
                 <p className="mx-2.5 text-lg font-semibold" ><Link to="/about">About Us</Link></p>
                 <p className="mx-2.5 text-lg font-semibold"><Link to="/contact">Contact</Link></p>
                 <p className=" searchicon mx-2.5"><ion-icon name="search-outline"></ion-icon></p>

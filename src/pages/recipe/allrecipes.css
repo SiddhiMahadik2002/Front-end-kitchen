@@ -1,0 +1,38 @@
+.recipeslisting {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-top: 150px;
+    margin:150px 50px 50px 50px;
+    }
+    .singlerecipecardar{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        position: relative;
+    }
+    .arimg>img{
+        height:500px;
+        object-fit: cover;
+        border-radius: 10px;
+
+    }
+    .aroverlay{
+        background-color: rgba(0, 0, 0, 0.576);
+        height: 500px;
+        position: absolute;
+        top:0;
+        width: 100%;
+        border-radius: 10px;
+        
+    }
+    .armetainfo{
+        position:absolute;
+        top:0;
+        width:100%;
+        margin: 20px 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+    }
