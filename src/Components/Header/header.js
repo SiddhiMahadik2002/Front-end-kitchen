@@ -1,12 +1,13 @@
 import React from "react";
 import "./header.css"
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 export const Header=()=>{
+    const navigate=useNavigate()
    return(
     <header>
         <div className="flex justify-between items-center m-10" >
-            <div>
+            <div style={{cursor:"pointer"}} onClick={()=>{navigate("/")}}>
                 <h2 className="text-2xl font-medium text-primary">Siddhi's Kitchen</h2>
             </div>
             <div className="flex items-center">
