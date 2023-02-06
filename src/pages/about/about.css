@@ -11,14 +11,32 @@ background: linear-gradient(90deg, rgba(246,229,210,1) 0%, rgba(233,228,222,1) 1
     font-size: 35px;
     background-size: cover;
     background-position: center;
+    padding: 0px 100px;
 
 }
-.aboutoverlay{
-    width:100%;
-    height:100vh;
-    position: absolute;
-    top:0;
-  
-   
 
+.aboutHeader>.left>img{
+  width:60%;
+  height:700px;
+  position: relative;
+  left: 200px;
+  top:80px;
+  border-radius:10px ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+.aboutHeader>.left{
+    transform: rotate(90deg);
+     width:70%;
+     
+}
+
+.aboutHeader>.right{
+    width:30%;
+}
+.right>p{
+    font-size: 20px;
+}
+.right>h2{
+    font-weight: 500;
 }
