@@ -1,0 +1,32 @@
+.footer{
+    background-color:#e78900 ;
+    color:white;
+    padding: 50px 0px;
+
+}
+
+.footermenu{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    max-width: 80%;
+    width:100%;
+    margin:auto;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 25px;
+grid-row-gap: 25px;
+
+}
+.singleFootermenu{
+    width: 100%;
+    text-align: center;
+}
+
+.copyright{
+    max-width: 80%;
+    width:100%;
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+}
